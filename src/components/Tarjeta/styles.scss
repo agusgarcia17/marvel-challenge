@@ -1,0 +1,14 @@
+
+.card {
+    -webkit-box-shadow: 7px 7px 20px 0px rgba(50, 50, 50, 0.85);
+    -moz-box-shadow:    7px 7px 20px 0px rgba(50, 50, 50, 0.85);
+    box-shadow:         7px 7px 20px 0px rgba(50, 50, 50, 0.85);
+
+    @media screen and (max-width: 991px){
+        width: auto!important;
+    }
+
+
+}
+
+ 
