@@ -1,14 +1,14 @@
 import React from "react";
-import {Link} from "react-router-dom"
-import Search from "./../Search"
+import {Link} from "react-router-dom";
 import {Navbar, Button} from "react-bootstrap";
+import Search from "./../Search";
 
 
 function NavBar(props){
 
+    //funcion de callback que trae el valor del input desde el search y lo envia al home
     function handleSearch(input){ 
         props.handleSearch(input)
-
     }
 
     return(
@@ -22,15 +22,13 @@ function NavBar(props){
             />
             </Navbar.Brand>
 
-            {
-                props.pagina === "home" ? 
+            { props.pagina === "home" ? // si la pagina es home, renderiza el buscador y si no renderiza el boton
                     <Search handleSearch={handleSearch}/> 
                 :
                     <Link to="/"> <Button variant="danger">Volver a Home</Button>  </Link>
             }
         </Navbar>
     )
-
 }
 
 export default NavBar;
