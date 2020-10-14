@@ -12,4 +12,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## A preview of the APP
 
-![Preview App](img/app.PNG)
+![Preview App](img/app.jpg)
