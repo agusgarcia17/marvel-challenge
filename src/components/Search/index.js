@@ -11,7 +11,7 @@ function Search(props){
 
     return(
             <Form inline>
-                <FormControl className=" mr-sm-2" type="text" placeholder="Busca aquí..." onChange={(e)=>handleChange(e)} /> 
+                <FormControl className="mr-sm-2" type="text" placeholder="Busca aquí..." onChange={(e)=>handleChange(e)} /> 
             </Form>
     )
 }

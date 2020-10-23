@@ -39,7 +39,6 @@ function Home(){
             <List heroes={heroes}/>  
         </div>
     )
-
 }
 
 export default Home;
